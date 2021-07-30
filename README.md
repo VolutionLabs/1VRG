@@ -8,18 +8,19 @@ Available Domains
 
 ## Contents
 
-- [Submission or project name](#submission-or-project-name)
-  - [Contents](#contents)
-  - [Short description](#short-description)
-    - [What's the problem?](#whats-the-problem)
-    - [How can technology help?](#how-can-technology-help)
-    - [The idea](#the-idea)
-  - [Demo video](#demo-video)
-  - [The architecture](#the-architecture)
-  - [Long description](#long-description)
-  - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
-  - [Live demo](#live-demo)
+
+- [Short description](#short-description)
+  - [What's the problem?](#whats-the-problem)
+  - [How can technology help?](#how-can-technology-help)
+  - [The idea](#the-idea)
+
+- [Demo video](#demo-video)
+- [The architecture](#the-architecture)
+- [Long description](#long-description)
+- [Project roadmap](#project-roadmap)
+- [Getting started](#getting-started)
+- [Live demo](#live-demo)
+- [Further info](#further-info)
   - [Built with](#built-with)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -129,7 +130,8 @@ Step 2. From the IBM Cloud catalog, provision an an instance of Watson Assistant
 
 You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
 
-## Built with
+## Further info
+### Built with
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 - [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
@@ -138,21 +140,21 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 - [Maven](https://maven.apache.org/) - Dependency management
 - [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
+### Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+### Versioning
 
-## Authors
+### Authors
 
 <a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
 </a>
 
 
-### ID
-#### Perspective: [#Self-Historizism(OUTLOOK:<method>[TEST]:
+#### ID
+##### Perspective: [#Self-Historizism(OUTLOOK:<method>[TEST]:
   [Lineature / Lining ("/right in time").expandedFramework()
  data ($TIME // $SPACE ///[potential] /EXP potential:
   [:INTER:]
@@ -162,11 +164,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 
 
-## License
+### License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+### Acknowledgments
 
 - Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
 
