@@ -2,8 +2,9 @@
 Repository for 1st Virtual Realtime Globe for climate / earth science geospatial data and its potential for extended augmented XR experience and state / exchange potential.
 
 
-- [CHANGE WATCH](http://changewatch.net) - View changes over time 
-- [INTELLIGENT ENVIRONMENT](http://intelligentenvironment.net) - View on the full sys
+Available Domains
+- [CHANGEWATCH](http://changewatch.net) - http://changewatch.net - View changes over time
+- [INTELLIGENT ENVIRONMENT](http://intelligentenvironment.net) - http://intelligentenvironment.net - View on the full sys
 
 ## Contents
 
