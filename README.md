@@ -3,8 +3,8 @@ Repository for 1st Virtual Realtime Globe for climate / earth science geospatial
 
 
 Available Domains
-- [CHANGEWATCH](http://changewatch.net) - http://changewatch.net - View changes over time
-- [INTELLIGENT ENVIRONMENT](http://intelligentenvironment.net) - http://intelligentenvironment.net - View on the full sys
+- http://changewatch.net - View changes over time
+- http://intelligentenvironment.net - View on the full sys
 
 ## Contents
 
