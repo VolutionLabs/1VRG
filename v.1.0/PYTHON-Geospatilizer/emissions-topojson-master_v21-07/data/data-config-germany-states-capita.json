@@ -1,0 +1,64 @@
+{
+	"featuretypes":{
+		"germany_ghg_per_capita": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "state",
+				    "component" : "emission",
+				    "emissionType": "GHG",
+					"level": "capita",
+					"sublevel": "total"
+				},
+				"dataset-metadata": {
+					"feature-name": "state_emission_GHG_capita_total",
+					"title": "GHG Emissions / Capita (FRG, Federal, 1990-2016)",
+					"data-source": "German Federal Environmental Agency",
+					"dataset-description": "Treibhausgasemissionen (THG) je Einwohner 1990 - 2016 nach Bundeslaendern",
+					"originating-data-link": "NOT FOUND",
+					"citation": "",
+					"reference-and-citation": "German Federal Environmental Agency (Umweltbundesamt, Nationale Trendtabellen, Stand Januar 2019, inklusive diffuse CO2-Emissionen aus Brennstoffen)",
+					"methodology-and-references": "",
+					"further-infos": "",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://www.umweltbundesamt.de/daten/klima",
+				    "data-details-and-limitations": "Data contains CO2, CH4 and N2O. CH4 emmisions calcaulated with a GWP value of 25, N2O emmissions converted in CO2 equivalents by application of GWP value of 298 (GWP = Global Warming Potential). Not containing process based CO2 emissions: Bavaria, Lower Saxony until 2008; Brandenburg, Hamburg, North-Rhine Westfalia for 1990; Saarland, Saxony until 1999; Thuringia."
+				},
+				"measurements-units": {
+				    "unit": "t CO2eq/cap",
+			   		"converted_unit": "t CO2eq/cap",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1990",
+				    "temporal-coverage-to": "2016",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/germany-states/e_5.1.2.xlsx",
+				"sheetname":"5.2",
+				"area-column":"Land",
+				"skipInitialRows":2,
+				"readRowsUntil":22
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1990,
+				"component" : "emission",
+				"emissionType": "GHG",
+				"referenceType": "capita",
+				"subtype": "total"
+			}
+		}
+	}
+}

@@ -1,0 +1,298 @@
+{
+	"featuretypes":{
+		"CO2_by_country": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "CO2",
+					"level": "totals",
+					"sublevel": "total"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_CO2_totals_total",
+					"title": "CO2 Emission Totals (Global)",
+					"data-source": "EDGAR (Emission Database for Global Atmospheric Research)",
+					"dataset-description": "EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019). GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015.",
+					"originating-data-link": "Report https://edgar.jrc.ec.europa.eu Further Info: https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019, https://edgar.jrc.ec.europa.eu/booklet2019/Fossil_CO2andGHG_emissions_of_all_world_countries_booklet_2019report.pdf",
+					"citation": "",
+					"reference-and-citation": "Crippa, M., Oreggioni, G., Guizzardi, D., Muntean, M., Schaaf, E., Lo Vullo, E., Solazzo, E., MonfortiFerrario, F., Olivier, J.G.J., Vignati, E., Fossil CO2 and GHG emissions of all world countries  2019 Report, EUR 29849 EN, Publications Office of the European Union, Luxembourg, 2019, ISBN 9789276111009, doi:10.2760/687800, JRC117610.",
+					"methodology-and-references": "",
+					"further-infos": "Country names are consistent with the Interinstitutional Style Guide of the European Commission available at http://publications.europa.eu/code/en/en370100.htm; the “Short name” definition listed in the \"List of countries, territories and currencies\" table at http://publications.europa.eu/code/en/en5000500.htm has been used (as of 16/07/2019). EDGAR data are expressed in metric units. The global GHG emissions trend has increased since the beginning of the 21st century in comparison to the three previous decades, mainly due to the increase in CO2 emissions from China and the other emerging economies. As a result, the atmospheric concentrations of greenhouse gases substantially increased enhancing the natural greenhouse effect, which may negatively affect the life on the Earth. These issues are internationally addressed in the framework of UNFCCC; countries are developing national emissions inventories and propose/implement actions to mitigate GHG emissions. CO2 emissions, which are the main responsible for global warming are still increasing at world level despite climate change mitigation agreements. However, CO2 emissions within the EU28 have decreased in the last two decades. Human related activities largely influence the total CO2 emissions – particularly, power generation and road transport but also emissions from combustion in the residential and commercial sectors play a key role. Despite decreasing trends for total EU28 CO2 emissions, CO2 emissions per capita within the EU28 are still higher than the world average value.",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019",
+				    "data-details-and-limitations": "In this report fossil CO2 emissions include sources from fossil fuel use (combustion, flaring), industrial processes (cement, steel, chemicals and urea) and product use. Please note that in the analysis presented in this report no short cycle carbon CO2 is included in any sector. GHG emissions comprise fossil CO2, CH4, N2O and F-gases. EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019).  GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015"
+				},
+				"measurements-units": {
+				    "unit": "Mt CO2/yr",
+			   		"converted_unit": "kt CO2/yr",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1000,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1970",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/EDGARv5.0_FT2018_fossil_CO2_GHG_booklet2019.xlsx",
+				"sheetname":"fossil_CO2_totals_by_country",
+				"area-column":"name"
+			},
+			"settings": {
+				"normalizationFactor" : 1000,
+				"component" : "emission",
+				"emissionType": "CO2",
+				"referenceType": "totals",
+				"subtype": "total"
+			}
+		},
+		"GHG_by_country": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "GHG",
+					"level": "totals",
+					"sublevel": "total"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_GHG_totals_total",
+					"title": "GHG Totals (Global)",
+					"data-source": "EDGAR (Emission Database for Global Atmospheric Research)",
+					"dataset-description": "EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019). GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015.",
+					"originating-data-link": "Report https://edgar.jrc.ec.europa.eu Further Info: https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019, https://edgar.jrc.ec.europa.eu/booklet2019/Fossil_CO2andGHG_emissions_of_all_world_countries_booklet_2019report.pdf",
+					"citation": "",
+					"reference-and-citation": "Crippa, M., Oreggioni, G., Guizzardi, D., Muntean, M., Schaaf, E., Lo Vullo, E., Solazzo, E., MonfortiFerrario, F., Olivier, J.G.J., Vignati, E., Fossil CO2 and GHG emissions of all world countries  2019 Report, EUR 29849 EN, Publications Office of the European Union, Luxembourg, 2019, ISBN 9789276111009, doi:10.2760/687800, JRC117610.",
+					"methodology-and-references": "",
+					"further-infos": "Country names are consistent with the Interinstitutional Style Guide of the European Commission available at http://publications.europa.eu/code/en/en370100.htm; the “Short name” definition listed in the \"List of countries, territories and currencies\" table at http://publications.europa.eu/code/en/en5000500.htm has been used (as of 16/07/2019). EDGAR data are expressed in metric units. The global GHG emissions trend has increased since the beginning of the 21st century in comparison to the three previous decades, mainly due to the increase in CO2 emissions from China and the other emerging economies. As a result, the atmospheric concentrations of greenhouse gases substantially increased enhancing the natural greenhouse effect, which may negatively affect the life on the Earth. These issues are internationally addressed in the framework of UNFCCC; countries are developing national emissions inventories and propose/implement actions to mitigate GHG emissions. CO2 emissions, which are the main responsible for global warming are still increasing at world level despite climate change mitigation agreements. However, CO2 emissions within the EU28 have decreased in the last two decades. Human related activities largely influence the total CO2 emissions – particularly, power generation and road transport but also emissions from combustion in the residential and commercial sectors play a key role. Despite decreasing trends for total EU28 CO2 emissions, CO2 emissions per capita within the EU28 are still higher than the world average value.",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019",
+				    "data-details-and-limitations": "In this report fossil CO2 emissions include sources from fossil fuel use (combustion, flaring), industrial processes (cement, steel, chemicals and urea) and product use. Please note that in the analysis presented in this report no short cycle carbon CO2 is included in any sector. GHG emissions comprise fossil CO2, CH4, N2O and F-gases. EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019).  GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015"
+				},
+				"measurements-units": {
+				    "unit": "Mt CO2eq/yr",
+			   		"converted_unit": "kt CO2eq/yr",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1000,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1970",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/EDGARv5.0_FT2018_fossil_CO2_GHG_booklet2019.xlsx",
+				"sheetname":"GHG_totals_by_country",
+				"area-column":"name"
+			},
+			"settings": {
+				"normalizationFactor" : 1000,
+				"component" : "emission",
+				"emissionType": "GHG",
+				"referenceType": "totals",
+				"subtype": "total"
+			}
+		},
+		"consumption-emissions": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "CO2",
+					"level": "totals",
+					"sublevel": "consumptionemissions"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_CO2_totals_consumption-emissions",
+					"title": "Consumption Emissions (Global)",
+					"data-source": "ICOS Carbon Portal  / Global Carbon Project. Collaboration of the global carbon cycle science community coordinated by the Global Carbon Project (GCP)",
+					"dataset-description": "Emissions from fossil fuel combustion and industrial processes",
+					"originating-data-link": "All datasets and modeling output to complete the Global Carbon Budget 2019 are described in detail in Friedlingstein et al. (2019) https://doi.org/10.5194/essd-11-1783-2019. All datasets contributing to the Global Carbon Budget 2019 have been integrated in to two Excel files, one for the global budget and one for national emissions. They are archived in ICOS: https://doi.org/10.18160/GCP-2019. Previous years can be found in The Global Carbon Budget Archive. 2018 and 2017 datasets are also stored at ICOS, and years before this at CDIAC.",
+					"citation": "",
+					"reference-and-citation": "Updated from Peters, GP, Minx, JC, Weber, CL and Edenhofer, O 2011. Growth in emission transfers via international trade from 1990 to 2008. Proceedings of the National Academy of Sciences 108, 8903-8908. http://www.pnas.org/content/108/21/8903.abstract. For an explanation of issues around consumption emissions, see: Peters, GP, Davis, SJ and Andrew, R 2012. A synthesis of carbon in international trade. Biogeosciences, 9, 3247-3276. http://www.biogeosciences.net/9/3247/2012/bg-9-3247-2012.html Consumption emissions are computed as in Peters et al. (2011), using 'territorial emissions GCB' as reference",
+					"methodology-and-references": "",
+					"further-infos": "Reference of the full global carbon budget 2019: Pierre Friedlingstein, Matthew W. Jones, Michael O’Sullivan, Robbie M. Andrew, Judith Hauck, Glen P. Peters, Wouter Peters, Julia Pongratz, Stephen Sitch, Corinne Le Quéré, Dorothee C. E. Bakker, Josep G. Canadell, Philippe Ciais, Rob Jackson, Peter  Anthoni, Leticia Barbero, Ana Bastos, Vladislav Bastrikov, Meike Becker, Laurent Bopp, Erik Buitenhuis, Naveen Chandra, Frédéric Chevallier, Louise P. Chini, Kim I. Currie, Richard A. Feely, Marion Gehlen, Dennis Gilfillan, Thanos Gkritzalis, Daniel S. Goll, Nicolas Gruber, Sören Gutekunst, Ian Harris, Vanessa Haverd, Richard A. Houghton, George Hurtt, Tatiana Ilyina, Atul K. Jain, Emilie Joetzjer, Jed O. Kaplan, Etsushi Kato, Kees Klein Goldewijk, Jan Ivar Korsbakken, Peter Landschützer, Siv K. Lauvset, Nathalie Lefèvre, Andrew Lenton, Sebastian Lienert, Danica Lombardozzi, Gregg Marland, Patrick C. McGuire, Joe R. Melton, Nicolas Metzl, David R. Munro, Julia E. M. S. Nabel, Shin-Ichiro Nakaoka, Craig Neill, Abdirahman M. Omar, Tsuneo Ono, Anna Peregon, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Laure Resplandy, Eddy Robertson, Christian Rödenbeck, Roland Séférian, Jörg Schwinger, Naomi Smith, Pieter P. Tans, Hanqin Tian, Bronte Tilbrook, Francesco N Tubiello, Guido R. van der Werf, Andrew J. Wiltshire, Sönke Zaehle. Global Carbon Budget 2019, Earth Syst. Sci. Data, 2019. https://doi.org/10.5194/essd-11-1783-2019",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2020",
+				    "data-details-and-limitations": "The Global Carbon Budget only reports countries that exist at the time of publications. For disaggregated countries, emissions prior to disaggregation use the emission shares when the current territories first appeared. The disaggregated estimates should be treated with care when examining countries’ emissions trends prior to their disaggregation. For aggregated countries, emissions prior to aggregation are added. For (dis)aggregated countries ssee original data. "
+				},
+				"measurements-units": {
+				    "unit": "MtC",
+			   		"converted_unit": "unknown",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1959",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/consumption-emissions.csv",
+				"area-column":"Code",
+				"year-column":"Year",
+				"value-column": "Consumption-Emissions"
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1990,
+				"component" : "emission",
+				"emissionType": "CO2",
+				"referenceType": "totals",
+				"subtype": "consumptionemissions",
+				"useIsoCodeMatching": false
+			}
+		},
+		"territorial-emissions": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "CO2",
+					"level": "totals",
+					"sublevel": "territorialemissions"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_CO2_totals_territorial emissions",
+					"title": "Fossil Fuels and Cement Production Emissions by Country (Global)",
+					"data-source": "ICOS Carbon Portal  / Global Carbon Project. Collaboration of the global carbon cycle science community coordinated by the Global Carbon Project (GCP)",
+					"dataset-description": "Emissions from fossil fuel combustion and industrial processes",
+					"originating-data-link": "All datasets and modeling output to complete the Global Carbon Budget 2019 are described in detail in Friedlingstein et al. (2019) https://doi.org/10.5194/essd-11-1783-2019. All datasets contributing to the Global Carbon Budget 2019 have been integrated in to two Excel files, one for the global budget and one for national emissions. They are archived in ICOS: https://doi.org/10.18160/GCP-2019. Previous years can be found in The Global Carbon Budget Archive. 2018 and 2017 datasets are also stored at ICOS, and years before this at CDIAC.",
+					"citation": "",
+					"reference-and-citation": "UNFCCC (June 2019) and CDIAC Source of UNFCCC data: https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/greenhouse-gas-inventories-annex-i-parties/national-inventory-submissions-2019; accessed June 2019. Source of CDIAC data: Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019.",
+					"methodology-and-references": "",
+					"further-infos": "Reference of the full global carbon budget 2019: Pierre Friedlingstein, Matthew W. Jones, Michael O’Sullivan, Robbie M. Andrew, Judith Hauck, Glen P. Peters, Wouter Peters, Julia Pongratz, Stephen Sitch, Corinne Le Quéré, Dorothee C. E. Bakker, Josep G. Canadell, Philippe Ciais, Rob Jackson, Peter  Anthoni, Leticia Barbero, Ana Bastos, Vladislav Bastrikov, Meike Becker, Laurent Bopp, Erik Buitenhuis, Naveen Chandra, Frédéric Chevallier, Louise P. Chini, Kim I. Currie, Richard A. Feely, Marion Gehlen, Dennis Gilfillan, Thanos Gkritzalis, Daniel S. Goll, Nicolas Gruber, Sören Gutekunst, Ian Harris, Vanessa Haverd, Richard A. Houghton, George Hurtt, Tatiana Ilyina, Atul K. Jain, Emilie Joetzjer, Jed O. Kaplan, Etsushi Kato, Kees Klein Goldewijk, Jan Ivar Korsbakken, Peter Landschützer, Siv K. Lauvset, Nathalie Lefèvre, Andrew Lenton, Sebastian Lienert, Danica Lombardozzi, Gregg Marland, Patrick C. McGuire, Joe R. Melton, Nicolas Metzl, David R. Munro, Julia E. M. S. Nabel, Shin-Ichiro Nakaoka, Craig Neill, Abdirahman M. Omar, Tsuneo Ono, Anna Peregon, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Laure Resplandy, Eddy Robertson, Christian Rödenbeck, Roland Séférian, Jörg Schwinger, Naomi Smith, Pieter P. Tans, Hanqin Tian, Bronte Tilbrook, Francesco N Tubiello, Guido R. van der Werf, Andrew J. Wiltshire, Sönke Zaehle. Global Carbon Budget 2019, Earth Syst. Sci. Data, 2019. https://doi.org/10.5194/essd-11-1783-2019",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2019",
+				    "data-details-and-limitations": "By default, the 1959-2016 estimates for fossil fuels and cement are from the Carbon Dioxide Information Analysis Center (CDIAC). Where available (42 countries) the national estimates reported by countries to the UNFCCC during 1990-2017 are overwritten (not marked). 2018 (and for some countries 2016-2018) estimates are preliminary and are based on energy statistics published by BP (not marked). Cement emissions are updated from Andrews (2018) https://www.earth-syst-sci-data.net/10/195/2018/  (1) National estimates include emissions from fossil fuel combustion and oxidation and cement production and excludes emissions from bunker fuels. World totals include emissions from bunker fuels.  (2) Bunker fuels: Emissions from fuels used for international aviation and maritime transport (3) The disaggregations of regions (e.g. the former Soviet Union prior to 1992) are based on the shares of emissions in the first year after the countries are disaggregated (e.g., 1992 for the Former Soviet). (4) The statistical difference presented on column HX is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels. The Global Carbon Budget only reports countries that exist at the time of publications. For disaggregated countries, emissions prior to disaggregation use the emission shares when the current territories first appeared. The disaggregated estimates should be treated with care when examining countries’ emissions trends prior to their disaggregation. For aggregated countries, emissions prior to aggregation are added. For (dis)aggregated countries ssee original data. "
+				},
+				"measurements-units": {
+				    "unit": "MtC",
+			   		"converted_unit": "unknown",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1959",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/territorial-emissions.csv",
+				"area-column":"Code",
+				"year-column":"Year",
+				"value-column": "Emissions"
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1959,
+				"component" : "emission",
+				"emissionType": "CO2",
+				"referenceType": "totals",
+				"subtype": "territorialemissions",
+				"useIsoCodeMatching": false
+			}
+		},
+		"emissions-transfers": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "CO2",
+					"level": "totals",
+					"sublevel": "emissionstransfers"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_CO2_totals_emissions transfers",
+					"title": "Emissions Transfers (Global)",
+					"data-source": "ICOS Carbon Portal  / Global Carbon Project. Collaboration of the global carbon cycle science community coordinated by the Global Carbon Project (GCP)",
+					"dataset-description": "Emissions from fossil fuel combustion and industrial processes",
+					"originating-data-link": "All datasets and modeling output to complete the Global Carbon Budget 2019 are described in detail in Friedlingstein et al. (2019) https://doi.org/10.5194/essd-11-1783-2019. All datasets contributing to the Global Carbon Budget 2019 have been integrated in to two Excel files, one for the global budget and one for national emissions. They are archived in ICOS: https://doi.org/10.18160/GCP-2019. Previous years can be found in The Global Carbon Budget Archive. 2018 and 2017 datasets are also stored at ICOS, and years before this at CDIAC.",
+					"citation": "",
+					"reference-and-citation": "Updated from Peters, GP, Minx, JC, Weber, CL and Edenhofer, O 2011. Growth in emission transfers via international trade from 1990 to 2008. Proceedings of the National Academy of Sciences 108, 8903-8908. http://www.pnas.org/content/108/21/8903.abstract. For an explanation of issues around consumption emissions, see: Peters, GP, Davis, SJ and Andrew, R 2012. A synthesis of carbon in international trade. Biogeosciences, 9, 3247-3276. http://www.biogeosciences.net/9/3247/2012/bg-9-3247-2012.html",
+					"methodology-and-references": "",
+					"further-infos": "Reference of the full global carbon budget 2019: Pierre Friedlingstein, Matthew W. Jones, Michael O’Sullivan, Robbie M. Andrew, Judith Hauck, Glen P. Peters, Wouter Peters, Julia Pongratz, Stephen Sitch, Corinne Le Quéré, Dorothee C. E. Bakker, Josep G. Canadell, Philippe Ciais, Rob Jackson, Peter  Anthoni, Leticia Barbero, Ana Bastos, Vladislav Bastrikov, Meike Becker, Laurent Bopp, Erik Buitenhuis, Naveen Chandra, Frédéric Chevallier, Louise P. Chini, Kim I. Currie, Richard A. Feely, Marion Gehlen, Dennis Gilfillan, Thanos Gkritzalis, Daniel S. Goll, Nicolas Gruber, Sören Gutekunst, Ian Harris, Vanessa Haverd, Richard A. Houghton, George Hurtt, Tatiana Ilyina, Atul K. Jain, Emilie Joetzjer, Jed O. Kaplan, Etsushi Kato, Kees Klein Goldewijk, Jan Ivar Korsbakken, Peter Landschützer, Siv K. Lauvset, Nathalie Lefèvre, Andrew Lenton, Sebastian Lienert, Danica Lombardozzi, Gregg Marland, Patrick C. McGuire, Joe R. Melton, Nicolas Metzl, David R. Munro, Julia E. M. S. Nabel, Shin-Ichiro Nakaoka, Craig Neill, Abdirahman M. Omar, Tsuneo Ono, Anna Peregon, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Laure Resplandy, Eddy Robertson, Christian Rödenbeck, Roland Séférian, Jörg Schwinger, Naomi Smith, Pieter P. Tans, Hanqin Tian, Bronte Tilbrook, Francesco N Tubiello, Guido R. van der Werf, Andrew J. Wiltshire, Sönke Zaehle. Global Carbon Budget 2019, Earth Syst. Sci. Data, 2019. https://doi.org/10.5194/essd-11-1783-2019",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021",
+				    "data-details-and-limitations": "The Global Carbon Budget only reports countries that exist at the time of publications. For disaggregated countries, emissions prior to disaggregation use the emission shares when the current territories first appeared. The disaggregated estimates should be treated with care when examining countries’ emissions trends prior to their disaggregation. For aggregated countries, emissions prior to aggregation are added. For (dis)aggregated countries ssee original data. "
+				},
+				"measurements-units": {
+				    "unit": "MtC",
+			   		"converted_unit": "unknown",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1959",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/emissions-transfers.csv",
+				"area-column":"Code",
+				"year-column":"Year",
+				"value-column": "Emissions-Transfers"
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1990,
+				"component" : "emission",
+				"emissionType": "CO2",
+				"referenceType": "totals",
+				"subtype": "emissionstransfers",
+				"useIsoCodeMatching": false
+			}
+		}
+	}
+}

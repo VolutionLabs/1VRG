@@ -1,0 +1,120 @@
+{
+	"featuretypes":{
+		"CO2_per_GDP": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "CO2",
+					"level": "GDP",
+					"sublevel": "total"
+				},
+				"dataset-metadata": {
+					"feature-name": "country_emission_CO2_GDP_total",
+					"title": "CO2 / GDP (Global)",
+					"data-source": "EDGAR (Emission Database for Global Atmospheric Research)",
+					"dataset-description": "EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019). GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015.",
+					"originating-data-link": "Report https://edgar.jrc.ec.europa.eu, Further Info: https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019, https://edgar.jrc.ec.europa.eu/booklet2019/Fossil_CO2andGHG_emissions_of_all_world_countries_booklet_2019report.pdf",
+					"citation": "",
+					"reference-and-citation": "Crippa, M., Oreggioni, G., Guizzardi, D., Muntean, M., Schaaf, E., Lo Vullo, E., Solazzo, E., MonfortiFerrario, F., Olivier, J.G.J., Vignati, E., Fossil CO2 and GHG emissions of all world countries  2019 Report, EUR 29849 EN, Publications Office of the European Union, Luxembourg, 2019, ISBN 9789276111009, doi:10.2760/687800, JRC117610.",
+					"methodology-and-references": "",
+					"further-infos": "Country names are consistent with the Interinstitutional Style Guide of the European Commission available at http://publications.europa.eu/code/en/en370100.htm; the “Short name” definition listed in the \"List of countries, territories and currencies\" table at http://publications.europa.eu/code/en/en5000500.htm has been used (as of 16/07/2019). EDGAR data are expressed in metric units. The global GHG emissions trend has increased since the beginning of the 21st century in comparison to the three previous decades, mainly due to the increase in CO2 emissions from China and the other emerging economies. As a result, the atmospheric concentrations of greenhouse gases substantially increased enhancing the natural greenhouse effect, which may negatively affect the life on the Earth. These issues are internationally addressed in the framework of UNFCCC; countries are developing national emissions inventories and propose/implement actions to mitigate GHG emissions. CO2 emissions, which are the main responsible for global warming are still increasing at world level despite climate change mitigation agreements. However, CO2 emissions within the EU28 have decreased in the last two decades. Human related activities largely influence the total CO2 emissions – particularly, power generation and road transport but also emissions from combustion in the residential and commercial sectors play a key role. Despite decreasing trends for total EU28 CO2 emissions, CO2 emissions per capita within the EU28 are still higher than the world average value.",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019",
+				    "data-details-and-limitations": "In this report fossil CO2 emissions include sources from fossil fuel use (combustion, flaring), industrial processes (cement, steel, chemicals and urea) and product use. Please note that in the analysis presented in this report no short cycle carbon CO2 is included in any sector. GHG emissions comprise fossil CO2, CH4, N2O and F-gases. EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019).  GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015"
+				},
+				"measurements-units": {
+				    "unit": "t CO2/kUSD/yr",
+			   		"converted_unit": "t CO2/kUSD/yr",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1970",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/EDGARv5.0_FT2018_fossil_CO2_GHG_booklet2019.xlsx",
+				"sheetname":"fossil_CO2_per_GDP_by_country",
+				"area-column":"name"
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1990,
+				"component" : "emission",
+				"emissionType": "CO2",
+				"referenceType": "GDP",
+				"subtype": "total"
+			}
+		},
+		"GHG_per_GDP": {
+			"metadata": {
+			    "taxonomy" : {
+					"geographic-level": "country",
+				    "component" : "emission",
+				    "emissionType": "GHG",
+					"level": "GDP",
+					"sublevel": "total"
+				},
+				"dataset-metadata": {
+					"feature-name": "GHG_per_GDP_by_country",
+					"title": "GHG / GDP (Global)",
+					"data-source": "EDGAR (Emission Database for Global Atmospheric Research)",
+					"dataset-description": "EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019). GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015.",
+					"originating-data-link": "Report https://edgar.jrc.ec.europa.eu, Further Info: https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019, https://edgar.jrc.ec.europa.eu/booklet2019/Fossil_CO2andGHG_emissions_of_all_world_countries_booklet_2019report.pdf",
+					"citation": "",
+					"reference-and-citation": "",
+					"methodology-and-references": "",
+					"further-infos": "Country names are consistent with the Interinstitutional Style Guide of the European Commission available at http://publications.europa.eu/code/en/en370100.htm; the “Short name” definition listed in the \"List of countries, territories and currencies\" table at http://publications.europa.eu/code/en/en5000500.htm has been used (as of 16/07/2019). EDGAR data are expressed in metric units. The global GHG emissions trend has increased since the beginning of the 21st century in comparison to the three previous decades, mainly due to the increase in CO2 emissions from China and the other emerging economies. As a result, the atmospheric concentrations of greenhouse gases substantially increased enhancing the natural greenhouse effect, which may negatively affect the life on the Earth. These issues are internationally addressed in the framework of UNFCCC; countries are developing national emissions inventories and propose/implement actions to mitigate GHG emissions. CO2 emissions, which are the main responsible for global warming are still increasing at world level despite climate change mitigation agreements. However, CO2 emissions within the EU28 have decreased in the last two decades. Human related activities largely influence the total CO2 emissions – particularly, power generation and road transport but also emissions from combustion in the residential and commercial sectors play a key role. Despite decreasing trends for total EU28 CO2 emissions, CO2 emissions per capita within the EU28 are still higher than the world average value.",
+					"uncertainties": "",
+					"unit-info": "",
+					"comments": "",
+					"license": "",
+					"dataset-metadata-link": "",
+				    "data-source-link": "https://edgar.jrc.ec.europa.eu/overview.php?v=booklet2019",
+				    "data-details-and-limitations": "In this report fossil CO2 emissions include sources from fossil fuel use (combustion, flaring), industrial processes (cement, steel, chemicals and urea) and product use. Please note that in the analysis presented in this report no short cycle carbon CO2 is included in any sector. GHG emissions comprise fossil CO2, CH4, N2O and F-gases. EDGARv5.0 uses international activity data, mainly energy balance statistics of IEA (2017) for 1970-2015 to estimate CO2 from fossil fuel consumption. These emissions are extended (FT approach) up to 2018 using BP statistics keeping the same sectoral breakdown. Updates for 2016, 2017 and 2018 for cement, lime, ammonia and ferroalloys production are based on USGS statistics, urea production and consumption are based on IFA statistics, associated gas used from flaring from GGFR/NOAA, steel production from world steel and cement clinker production from UNFCCC (2019).  GHG emissions are estimated entirely using stable statistics and no Fast-Track approach is applied. Therefore GHG emissions are available until the year 2015"
+				},
+				"measurements-units": {
+				    "unit": "t CO2eq/kUSD/yr",
+			   		"converted_unit": "t CO2eq/kUSD/yr",
+					"value-min": "",
+				    "value-max": "",
+				    "multiplication-factor": 1,
+			   		"+/-": "+"
+				},
+				"data-metadata": {
+					"temporal-coverage-from": "1970",
+				    "temporal-coverage-to": "2018",
+				    "nominal-resolution [m]": "",
+				    "indicator-name": "",
+				    "indicator-code": "",
+				    "indicator-description": ""
+				}
+			},
+			"reference": {
+				"file":"data/world-countries/EDGARv5.0_FT2018_fossil_CO2_GHG_booklet2019.xlsx",
+				"sheetname":"GHG_per_GDP_by_country",
+				"area-column":"name"
+			},
+			"settings": {
+				"normalizationFactor" : 1,
+				"timeSeriesStartYear":1990,
+				"component" : "emission",
+				"emissionType": "GHG",
+				"referenceType": "GDP",
+				"subtype": "total"
+			}
+		}
+	}
+}

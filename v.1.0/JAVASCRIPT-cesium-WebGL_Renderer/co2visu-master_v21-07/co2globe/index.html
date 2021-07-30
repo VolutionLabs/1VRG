@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- Make the app on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>CO2 Vizu</title>
+
+    <!-- The Cesium library. -->
+    
+    <script src="https://cesiumjs.org/releases/1.72/Build/Cesium/Cesium.js"></script> 
+    <!--<script src="https://cesiumjs.org/releases/1.72/Build/CesiumUnminified/Cesium.js"></script>-->
+
+    <link href="https://cesiumjs.org/releases/1.72/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <!-- Style our app. -->
+    <link rel="stylesheet" href="index.css" media="screen">
+</head>
+<body>
+    <!-- A container for the Cesium Viewer to live in. -->
+    <div id="cesiumContainer"></div>
+
+
+    <!-- Some input elements for our app. -->
+
+    <div class="backdrop" id="menu">
+
+        <span>Spatial Scope:</span>
+        <div class="nowrap">
+            <select id="dataSelection_1">
+                <option value="globe">Global (Sphere)</option>
+                <option value="country">Countries (of the world)</option>
+                <option value="state">State (DE)</option>
+            </select>
+        </div>
+
+        <span>Emission/Sink:</span>
+        <div class="nowrap">
+            <select id="dataSelection_2">
+                <option value="emission">emission</option>
+                <option value="sink">sink</option>
+            </select>
+        </div>
+
+        <span>Emission Type:</span>
+        <div class="nowrap">
+            <select id="dataSelection_3">
+                <option value="CO2">CO2</option>
+                <option value="GHG">GHG</option>
+            </select>
+        </div>
+
+        <span>Reference:</span>
+        <div class="nowrap">
+            <select id="dataSelection_4">
+                <option value="totals">totals</option>
+                <option value="GDP">GDP</option>
+                <option value="capita">capita</option>
+                <option value="ratio">ratio</option>
+            </select>
+        </div>
+
+        <span>Sublevel:</span>
+        <div class="nowrap">
+            <select id="dataSelection_5">
+                <option value="total">total</option>
+                
+                <option value="atmosphericgrowth">atmosphericgrowth</option>
+                <option value="oceansink">oceansink</option>
+                <option value="terrestrialsink">terrestrialsink</option>
+
+                <option value="budgetimbalance">budgetimbalance</option>
+                <option value="consumptionemissions">consumptionemissions</option>
+                <option value="emissionstransfers">emissionstransfers</option>
+
+                <option value="buildings">buildings</option>
+                <option value="powerindustry">powerindustry</option>
+                <option value="territorialemissions">territorialemissions</option>
+                <option value="transport">transport</option>
+                <option value="otherindustrialcombustion">otherindustrialcombustion</option>
+                <option value="othersectors">othersectors</option>
+                
+                <option value="cement">cement</option>
+                <option value="coal">coal</option>
+                <option value="flaring">flaring</option>
+                <option value="fossilfuelcement">fossilfuelcement</option>
+                <option value="gas">gas</option>
+                <option value="landusechange">landusechange</option>
+                <option value="oil">oil</option>
+
+            </select>
+        </div>
+
+        <hr>
+
+        <span><strong>Display options:</strong></span>
+        <!--
+        <div>
+            <input type="checkbox" id="bars" name="bars" checked>
+            <label for="bars">Balken/Kugel</label>
+        </div>
+        <div>
+            <input type="checkbox" id="extrusions" name="extrusions" checked>
+            <label for="extrusions">Laender-Extrusionen</label>
+        </div>
+        -->
+        <div>
+            <input type="checkbox" id="logarithmicScaling" name="logarithmicScaling" checked>
+            <label for="logarithmicScaling">logarithmic data display </label>
+        </div>
+        <br>
+
+        <!--
+        <span><strong>Own clock:</strong></span>
+        <div>
+            <button id="buttonStartClock" onclick="onButtonStartClockClicked()">Start own clock</button>
+        </div>
+        <div>
+            <button id="buttonStopClock" onclick="onButtonStopClockClicked()">Stop own clock</button>
+            <br>
+        </div>
+            -->
+
+
+        <div id="loadingIndicator" class="cover">
+            <div id="loadingIcon" class="loadingIndicator"></div>
+        </div>
+
+        <!-- JS code. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="Source/Line2D.js"></script>
+        <script src="Source/GUI.js"></script>
+        <script src="Source/Loading.js"></script>
+        <script src="Source/Helpers.js"></script>
+        <script src="Source/Updating.js"></script>
+        <script src="Source/Main.js"></script>
+        
+</body>
+</html>

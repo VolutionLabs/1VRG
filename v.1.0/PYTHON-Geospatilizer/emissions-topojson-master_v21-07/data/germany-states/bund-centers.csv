@@ -1,0 +1,17 @@
+index,state,state_code,type,latitude,longitude
+0,Baden-Württemberg,DE-BW,State,48.6765,9.1187
+1,Bayern,DE-BY,State,48.8069,11.6895
+2,Berlin,DE-BE,State,52.5162,13.3923
+3,Brandenburg,DE-BB,State,51.9036,13.9307
+4,Bremen,DE-HB,State,53.1072,8.8220
+5,Hamburg,DE-HH,State,53.5599,10.0031
+6,Hessen,DE-HE,State,50.4855,8.9209
+7,Mecklenburg-Vorpommern,DE-MV,State,53.6967,12.4585
+8,Niedersachsen,DE-NI,State,52.5095,9.8328
+9,Nordrhein-Westfalen,DE-NW,State,51.4609,7.4487
+10,Rheinland-Pfalz,DE-RP,State,49.9088,7.3938
+11,Saarland,DE-SL,State,49.3466,6.9873
+12,Sachsen-Anhalt,DE-ST,State,51.9104,11.7224
+13,Sachsen,DE-SN,State,51.0690,13.1836
+14,Schleswig-Holstein,DE-SH,State,54.1624,9.8657
+15,Thüringen,DE-TH,State,50.8892,10.9753

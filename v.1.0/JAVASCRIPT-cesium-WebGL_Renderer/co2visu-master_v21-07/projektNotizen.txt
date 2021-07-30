@@ -1,0 +1,264 @@
+
+editor:
+https://cesiumjs.org/Cesium/Build/Apps/Sandcastle/index.html?src=Cylinders%20and%20Cones.html
+
+token:
+Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzNmUzNjVmYi0xMmYwLTQ4OGYtYWE4Ni1kOWVmYTMyYjgxZjgiLCJpZCI6MTIxNTEsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1NjA0MjQ2NTB9.SFIxnAKR3VZOb2gmB16Pg91r4N3LaTC1mS-FUQSRuQs';
+
+browser lokal:
+http://localhost:8080/
+
+Install Node.js & NPM:
+https://cesium.com/docs/tutorials/cesium-workshop/
+
+Lisa Erbs-FTP Server:
+  ftp.intelligentenvironment.net
+  248518-globe
+  dK9p/P4zu!78s
+
+
+                     
+--------------------------------------------------------------------------------------------------------------
+
+SPÄTER:
+
+add terrain 
+mit water effects
+Terrain Tutorial https://cesium.com/docs/tutorials/terrain/
+
+Cesium provides lots of methods for working with imagery layers, such as color adjustment and layer blending:
+verschmelze map layers? ....
+
+// Enable lighting based on sun/moon positions
+viewer.scene.globe.enableLighting = true;
+
+clock api
+https://cesiumjs.org/Cesium/Build/Apps/Sandcastle/index.html?src=Clock.html
+
+1. globe rotiert und zoomt selbstaendig
+2. kamera verfolgt dronen flug über bestimmten weg ueber die erde
+
+-------------------------------------------------------------------------------------------------------------
+
+var viewer = new Cesium.Viewer('cesiumContainer', {
+    terrainProvider: Cesium.createWorldTerrain(),
+    
+    imageryProvider : Cesium.createWorldImagery({
+        style : Cesium.IonWorldImageryStyle.AERIAL_WITH_LABELS
+    })   
+});
+
+
+var co2data = [
+    
+    ['Deutschland', 50.726436, 10.188219, 4*160000.0],
+    ['Tschechien',  49.880860, 15.545059, 1*160000.0],
+    ['Oesterreich', 47.389967, 14.190964, 2*160000.0],
+    
+    ['Bayern',      49.112706, 11.385309, 0.2*160000.0],
+    ['Sachsen',     51.063391, 13.393960, 0.1*160000.0],
+    ['Brandenburg', 52.574068, 13.668072, 0.3*160000.0]
+  
+    
+    
+];
+
+
+co2data.forEach(function(element) {
+
+    console.log(element[0]);
+
+    var cylinder = viewer.entities.add({
+        name : element[0],
+        position: Cesium.Cartesian3.fromDegrees(element[2], element[1],  element[3] / 2.0),
+        cylinder : {
+            length : element[3],
+            topRadius : 20000.0,
+            bottomRadius : 20000.0,
+            material : Cesium.Color.RED.withAlpha(0.5),
+            outline : true,
+            outlineColor : Cesium.Color.DARK_RED
+        }
+    });
+});
+  
+viewer.flyTo(viewer.entities);
+
+------------------------
+
+
+var viewer = new Cesium.Viewer("cesiumContainer", 
+  {
+     requestRenderMode: true,
+	 maximumRenderTimeChange: Infinity // Sekunden
+  }
+);
+viewer.scene.debugShowFramesPerSecond = true;
+
+var numberOfEntitesHori = 5;
+var numberOfEntitesVert = 5;
+
+var i, j;
+for(i = 0 ; i < numberOfEntitesHori; i++){
+  for(j = 0; j < numberOfEntitesVert; j++){  
+    viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(i*2, j*2, 200000.0),
+      cylinder: {
+        length: new Cesium.CallbackProperty(getSingleCallbackFunction, false),
+        topRadius: 60000.0,
+        bottomRadius: 60000.0,
+        outline: true,
+      },
+    });
+  }
+}
+
+viewer.zoomTo(viewer.entities);
+
+function getSingleCallbackFunction() {
+        return 800000;
+}
+
+
+----------------------
+
+Using multiple CallbackProperty: kills performance (drops to Zero FPS)
+ 
+ -- 
+
+I am currently visualizing the air pollution of the Earth using Cesium.
+On each country of the world, I place a cylinder (or a polygon extrusion of the country's surrounding).
+I have a timeline from 1970 to 2020, and the height of the cylinders (or the polygon extrusions) is set to the
+value of the air pollution of each country in the current selected year in the timeline.
+This looks fine so far, but if I press "Play" in the lower left "Animate" Widget, I get big performance problems
+as the time flows through the years.
+The FPS are 7 to 23 FPS, the FPS value is jumping very much around. All entities seem to update their height at random
+points in time, in a big chaos, the timeline is stuttering, .... 
+
+In my first attempt, I was setting the properties directly in all the (195) entities:
+Cylinder:
+    var viewerEntity = _viewer.entities.getById(ID_OF_COUNTRY);
+    viewerEntity.cylinder.length = VALUE_OF_THE_CURRENT_YEAR;
+Polygon:
+    _dataEntities.forEach(function (entity)
+        entity.polygon.extrudedHeight = VALUE_OF_THE_CURRENT_YEAR; 
+        
+I already tried out "requestRenderMode", (see https://cesium.com/blog/2018/01/24/cesium-scene-rendering-performance/) 
+with no better experience:
+    _viewer = new Cesium.Viewer('cesiumContainer',
+	    requestRenderMode: true,
+	    maximumRenderTimeChange: Infinity
+	});
+    
+I am already using "suspendEvents", so that all changes are done in ONE step, and one after the other for each single entity:
+
+// Turn "rendering" off:
+        _viewer.entities.suspendEvents();
+        _dataSourceDisplays.forEach(function (dataSourceDisplay) {
+            dataSourceDisplay.dataSources._dataSources[0].entities.suspendEvents();
+        });           
+// Turn "rendering" on:
+        _viewer.entities.resumeEvents();
+        _dataSourceDisplays.forEach(function (dataSourceDisplay) {
+            dataSourceDisplay.dataSources._dataSources[0].entities.resumeEvents();
+        });
+
+OK, then I found a forum entry that said I should use a PropertyCallback for changing entity properties.
+Okay, I do not need ONE callback, but 195 (one for each country on the Earth), 
+but this should be possible with passing an argument to the callback function:
+https://groups.google.com/g/cesium-dev/c/b3qcnbzCMxY
+
+But then, using a callback for 195 entites dropped my framerate to 0 FPS!
+
+So, 
+I now create a very simple example so that you can reproduce it easily:
+Please paste the following code into the Cesium sandbox ajnd try it.
+
+If you try it with 1 cylinder (see numberOfEntitiesHori and numberOfEntitiesVert), you will get probably 55 FPS.
+Try it with 5 * 5 = 25 cylinders, you will get around 8 FPS.
+Try it with 20 * 10 = 200 cylinders (this is my case), you will get 0 FPS.
+Looks like the callback function is called too often so that the performance breaks down.
+
+My questions are now:
+
+Am I doing right to switch to CallbackProperty to change the properties of my 195 cylinders / polygon extrusions during runtime?
+If yes, how can I make my simplified example (and in the end - my own application) have a good performance?
+
+Can I reduce (or start/stop) the callback function calling frequency of the CallbackProperty?
+"requestRenderMode: true" doesn't seem to affect that, as you can try out in my example.
+
+Thank you 
+and all the best 
+    Manuel
+   
+
+--------------------------------------------------------
+
+// Create a viewer
+var viewer = new Cesium.Viewer("cesiumContainer", 
+  {
+     // requestRenderMode tries to speed up performance / getting control over the rendering:
+     requestRenderMode: true,
+	 maximumRenderTimeChange: Infinity // Sekunden
+  }
+);
+
+// show FPS
+viewer.scene.debugShowFramesPerSecond = true;
+
+// Select here, how many cylinders to display
+// In the end, I need e.g. 20 x 10 = 200 cylinders!
+var numberOfEntitiesHori = 5;
+var numberOfEntitiesVert = 5;
+
+// Create (for example 200) cylinders:
+
+var i, j;
+for(i = 0 ; i < numberOfEntitiesHori; i++){
+  for(j = 0; j < numberOfEntitiesVert; j++){  
+    viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(i*2, j*2, 200000.0),
+      cylinder: {
+        // attach the length to the callback function
+        length: new Cesium.CallbackProperty(getSingleCallbackFunction, false),
+        topRadius: 60000.0,
+        bottomRadius: 60000.0,
+        outline: true,
+      },
+    });
+  }
+}
+
+viewer.zoomTo(viewer.entities);
+
+// The callback function:
+// Imagine that I assign here the new cylinder height for each cylinder (country) for the currently selected year in the timeline.
+// But to show the performance problem, it is already enough to return here one simple value for all cylinders for all years:
+function getSingleCallbackFunction() {
+        return 800000;
+}
+
+-----------------------------------------
+
+25 ging
+29 files crasht mit memory
+26 crasht
+24 ist ok
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+

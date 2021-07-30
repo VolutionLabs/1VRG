@@ -1,0 +1,24 @@
+{
+    "type": "Topology",
+    "objects": {
+        "collection": {
+            "type": "GeometryCollection",
+            "geometries": [{
+                    "arcs": [[0]],
+                    "type": "Sphere",
+                    "properties": {
+                    	"code": "WLD",
+                        "name": "World"
+                    }
+                }
+            ]
+        }
+    },
+    "arcs": [
+    	[[0, 0], [0.05, 0], [0.05, 0], [0, 0.001], [-0.05, 0], [-0.05, 0], [0, -0.001]]
+    ],
+    "transform": {
+        "scale": [3.598, 1.798],
+        "translate": [-179.9, -89.9]
+    }
+}

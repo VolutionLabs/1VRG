@@ -1,0 +1,153 @@
+{
+	"adminLevel": "",
+	"adminLevels": ["globe","country","state"],
+	"data":{
+		"globe":[
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-global-totals.json",
+				"topojsonRawFile" : "data/global/surface-raw.topojson",
+				"topojsonJoinProperty" : "code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : false,
+				"readAreaCenterCoordinates" : false,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-global-sectors.json",
+				"topojsonRawFile" : "data/global/surface-raw.topojson",
+				"topojsonJoinProperty" : "code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : false,
+				"readAreaCenterCoordinates" : false,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-global-capita.json",
+				"topojsonRawFile" : "data/global/surface-raw.topojson",
+				"topojsonJoinProperty" : "code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : false,
+				"readAreaCenterCoordinates" : false,
+				"writeAllFeatureTypesToSingleFile" : false
+			}
+		],
+		"country":[
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-countries-totals.json",
+				"topojsonRawFile" : "data/world-countries/countries-raw.topojson",
+				"centerCoordinatesFile" : "data/world-countries/wlt-centers.csv",
+				"countriesCSV" : "data/world-countries/country-iso-codes.csv",
+				"countriesCSVcustom" : "data/world-countries/country-iso-codes-edgecases.csv",
+				"joinColumn" : "ISO3166-1-Alpha-3",
+				"joinCustomColumn" : "iso3166-alpha-3",
+				"topojsonJoinProperty" : "code",
+				"centerCoordsJoinColumn" : "country_code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : true,
+				"iso3CountryColumn" : "official_name_en",
+				"iso3CustomCountryColumn" : "name",
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-countries-sectors.json",
+				"topojsonRawFile" : "data/world-countries/countries-raw.topojson",
+				"centerCoordinatesFile" : "data/world-countries/wlt-centers.csv",
+				"countriesCSV" : "data/world-countries/country-iso-codes.csv",
+				"countriesCSVcustom" : "data/world-countries/country-iso-codes-edgecases.csv",
+				"joinColumn" : "ISO3166-1-Alpha-3",
+				"joinCustomColumn" : "iso3166-alpha-3",
+				"topojsonJoinProperty" : "code",
+				"centerCoordsJoinColumn" : "country_code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : true,
+				"iso3CountryColumn" : "official_name_en",
+				"iso3CustomCountryColumn" : "name",
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-countries-GDP.json",
+				"topojsonRawFile" : "data/world-countries/countries-raw.topojson",
+				"centerCoordinatesFile" : "data/world-countries/wlt-centers.csv",
+				"countriesCSV" : "data/world-countries/country-iso-codes.csv",
+				"countriesCSVcustom" : "data/world-countries/country-iso-codes-edgecases.csv",
+				"joinColumn" : "ISO3166-1-Alpha-3",
+				"joinCustomColumn" : "iso3166-alpha-3",
+				"topojsonJoinProperty" : "code",
+				"centerCoordsJoinColumn" : "country_code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : true,
+				"iso3CountryColumn" : "official_name_en",
+				"iso3CustomCountryColumn" : "name",
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-countries-capita.json",
+				"topojsonRawFile" : "data/world-countries/countries-raw.topojson",
+				"centerCoordinatesFile" : "data/world-countries/wlt-centers.csv",
+				"countriesCSV" : "data/world-countries/country-iso-codes.csv",
+				"countriesCSVcustom" : "data/world-countries/country-iso-codes-edgecases.csv",
+				"joinColumn" : "ISO3166-1-Alpha-3",
+				"joinCustomColumn" : "iso3166-alpha-3",
+				"topojsonJoinProperty" : "code",
+				"centerCoordsJoinColumn" : "country_code",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : true,
+				"iso3CountryColumn" : "official_name_en",
+				"iso3CustomCountryColumn" : "name",
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			}
+		],
+		"state":[
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-germany-states.json",
+				"topojsonRawFile" : "data/germany-states/states-raw.topojson",
+				"centerCoordinatesFile" : "data/germany-states/bund-centers.csv",
+				"joinColumn" : "Land",
+				"topojsonJoinProperty" : "name",
+				"centerCoordsJoinColumn" : "state",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : false,
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			},
+			{
+				"featuretypeToProcess" : "",
+				"dataConfigFile" : "data/data-config-germany-states-capita.json",
+				"topojsonRawFile" : "data/germany-states/states-raw.topojson",
+				"centerCoordinatesFile" : "data/germany-states/bund-centers.csv",
+				"joinColumn" : "Land",
+				"topojsonJoinProperty" : "name",
+				"centerCoordsJoinColumn" : "state",
+				"csvEncoding" : "utf-8",
+				"useIsoCodeMatching" : false,
+				"readAreaCenterCoordinates" : true,
+				"writeAllFeatureTypesToSingleFile" : false
+			}
+		]
+	},
+	"general":{
+		"timeSeriesStartYear" : 1970,
+		"useCustomIsoCodeMatching" : true,
+		"prettyPrintOutput" : false,
+		"rowConstraintSeparator": "=",
+		"calculateGroupMaxValue": true
+	},
+	"debug":{
+		"verbose" : false,
+		"debugISOCountry" : "ALB"
+	}
+}
+
+
