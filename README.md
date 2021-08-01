@@ -28,7 +28,16 @@ a multitool for climate / earth science geospatial data and its potential for ex
 
 ## Short description
 
+1VRG is the digital and virtual representation of planet earth in digital / virtual space - the virtual globe in realtime,with its all its streams and parameteres, brought together on the body of a round shape (that is capable of showing  the interdependencies.)
+
 ### What's the problem?
+
+<condition state>
+Massive eruptions in global system on many scales, we are on the break to climate catastrophies and the potential end.
+We need to taket he paradigmatic step and leave flatlands, see interconnectedness and making sense of the interlinkage.  nextLevel: "The Age of Within"
+We are in "#LevelCrisis".
+
+We have to bring it all together to one BIG PICTURE
 
 ### How can technology help?
 
