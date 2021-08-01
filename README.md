@@ -178,7 +178,7 @@ Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
 ---> NEEDS:
 
 
-####ADVANCED:
+#### ADVANCED:
 
 ##### (3) make it realtime,
 ##### (4) intelligent (deeper data analytics, relations, calculations, insights) and
