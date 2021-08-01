@@ -1,5 +1,6 @@
 # 1st Virtual Realtime Globe
-Repository for 1st Virtual Realtime Globe for climate / earth science geospatial data and its potential for extended augmented XR experience and state / exchange potential.
+Repository for 1st Virtual Realtime Globe
+a multitool for climate / earth science geospatial data and its potential for extended augmented XR experience and state / exchange potential.
 
 
 Available Domains
@@ -60,6 +61,74 @@ Available Domains
 ## The architecture
 
 ## Long description
+
+#1VRG
+
+We urgently need a holistic tool for climate issues. Create awareness for condition state of earth, interlinkage, embedment and action.
+
+Within the scope of “GLOBAL CHALLENGE” we urgently need:
+- a fresh body of imagination (augmented/virtual 3D spacetime instead of flat, linear, separate)
+- change in perspective / point of view (POV) of individuals (towards holistic interlinked entity thinking and awareness)
+- look at (and understand deeply) the dramatic figures of (climate) condition
+- see the interlinkages and co-dependencies within system
+- develop a collective drive “ONE EARTH” - survival dynamics
+- forms of interlinked scape and actions beyond old flat/static platform
+
+There is an exponential growing body of (climate change /earth science / condition specific) data, there is so much areas/ info, but it is all separated. There are impressive visualisations, merges, that make information available, give insight, but flat and distinct, without the framework and weight of timespace, without direct binding to planet Earth or own experienced carbon world - rational and not felt deep within), not daring to overlay and combine deep, to one “Big Picture” of what we know..
+without linking to one upper folder,
+as ‘one, unfortunately very dramatic, combined knowledge map’,
+combining it all (and projecting it right),
+that,
+and the potential of located representation and presence in virtual/digital/augmented space (and its dimensional advanced perspectives and) ‘higher-ordered’ potentials.
+
+We need one place/spacetime-framework, where we can combine and superpose data and provide deeper insights on condition state, grant access in a very new form of getting the knowledge into our system: experience and see:
+
+Virtual space is the next scape and the additional layer augmenting analog reality and experience.
+Digital space, virtual territory is still non-claimed, un-bound, earth representation/center unresolved.
+Different players like Google Earth, Esri (and other web map technologies, etc.) follow different trajectories and goals (- they want to provide technology, but they are not free to proclaim new what is missing:
+
+There is yet no specific virtual globe, that focuses on our global condition state regarding climate catastrophe.
+No entity in web has yet created this and proclaims to be THE virtual representation of our planet as a realtime application upon which a lot can further be developed.
+
+It is like a Copernican Revolution within the digital: from flat to spherical/3D/augmented / meta-level’d gating / deeper spheres…
+
+[1VRG] is the 1st Virtual Realtime Globe, that wants to fill this gap,
+setting up rihgt at the center of virtual coordinate system, mapping global,
+bringing together relevant climate earth condition focused data, combines it with its spatial, temporal and effective parameters and maps advanced insight Earth data: live, historic, future scenarios. renderable, immersive, true, deep. -
+onto a unique digital 3D earth representation.
+
+[1VRG] `s claim:
+The big picture of planet Earth entity and its condition states - in realtime - interactive - immersive - real.
+
+
+DEEPER / NEXT
+From freeing data from excel cells to most advanced data analytics and mapping for seeing the scope in its deep valleys of experienced co:local states of /. and trajectories- :/beyond / <multi-gated> as <next> POV.
+
+
+METHOD:
+1) Let’s take the marble. virtual and 3D. Let’s call it “1VRG”.
+2) Put those data layers on it,
+3) make it realtime,
+4) intelligent (deeper data analytics, relations, calculations, insights) and
+5) project, visualise, map - shocking insights and connections
+6) augment, immerse (grant access to drive-throughs and critical points) experiential in XR
+7) make it interactive (gamification) - *hand in the game* - via global condition number : individual footprint number [calculations and feedback]: —> EQUILLIBRIUM <—
+8) have a [1VRG] with all upcoming potential
+as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
+9) find assets and exchange forms for “sustainable global”
+
+IBM is the player who offers the right effective platforms for data processing and analytics and has a rather free position and perspective, free to provide such a platform with global focused POV link to advanced technologies: data (streaming+analytics) and visualising with technology frameworks for such ONE proclaimed
+1st Virtual Realtime Globe.
+
+
+Besides your “GLOBAL CHALLENGE” project, Google GeoForGood, and many other big players are also working aware along this one huge global challenge reaching out, contributing in establishing and combine technologies..
+needs & potentials: #SURVIVAL_DYNAMICS #AUGMENTED_GATING
+I fully believe in it and I see with one short glimpse (-not daring to think too deep in its sidearms) about 100 great possibilities to derive on different layers and as a multitude of applications, abstractions and remixes of something very #open-ended, “volutionary” on this [1st Virtual Realtime Globe]++.
+
+I think we truly shall -with united forces - make this happen right now:
+1st Virtual Realtime Globe.
+
+
 [More detail is available here](./docs/DESCRIPTION.md)
 
 
