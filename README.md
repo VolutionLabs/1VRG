@@ -122,6 +122,7 @@ I think we truly shall -with united forces - make this happen right now:
 
 
 [More detail is available here](./docs/DESCRIPTION.md)
+[More details for Tech Players available here](./docs/tech-player-info.md)
 
 
 
