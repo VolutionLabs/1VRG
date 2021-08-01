@@ -41,8 +41,20 @@ We have to bring it all together to one BIG PICTURE
 
 ### How can technology help?
 
+####DATA
+- Combined data on that scope!
+- Analytics, derives, relations,
+- effective parameter
+- Inscription, Enclosure, Topology, Ontology
 
-  ## TO HONESTLY TALK TO YOU:
+####Augmented space
+
+
+
+
+
+
+## TO HONESTLY TALK TO YOU:
   THIS COULD MAKE A DIFFERENCE.
   IF WE HAVE A TRUE LOCATED VIRTUAL TWIN WITH ALL THE INFORMATION ACCESSIBLE AMD OBVIOS TO ANYONE, IF WE COMBINE THE STATEW SPACES, WE CAN AUGMENT
 
