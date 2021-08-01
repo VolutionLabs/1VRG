@@ -205,6 +205,35 @@ Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
+#### Project Idea
+The project idea developed in 2017, where one basic layer was created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER.
+
+The idea is: an outermost technology setup and claim for next-augmented scape, digital/virtual space:
+1st Virtual Realtime Globe, that contains many layers.
+
+Its development is setup in some basic steps.
+
+
+
+#### STEP 1: v.1.0 Carbon Globe [proof of concept]
+Step 1  "Carbon Globe" is being realized for DBFZ.
+This basic tool consists of an (emission) data *GEOSPATIALIZER* python script, that merges emission data (from excel tables) with geospatial, parameter enriched data
+
+and lets the geospatial referenced dataset figure being - automatically integrated into the parameter taxonomy and being - mapped onto a virtual realtime globe
+with the  framework cesium.js
+and  data from basic emission providers
+and with a basic python script to do the essential data inscriving work.
+
+
+#### STEP 2: v.1.1 Globe for "GLOBAL CHALLENGE" with IBM and more ..  [reflect what is possible]
+
+#### STEP 3: v.1.1 Carbon Globe [optimized]
+- clean
+- clean
+- ..
+
+
+
 ![Roadmap](./images/roadmap.jpg)
 
 #### Versions
