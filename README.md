@@ -117,14 +117,6 @@ METHOD:
 as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
 9) find assets and exchange forms for “sustainable global”
 
-IBM is the player who offers the right effective platforms for data processing and analytics and has a rather free position and perspective, free to provide such a platform with global focused POV link to advanced technologies: data (streaming+analytics) and visualising with technology frameworks for such ONE proclaimed
-1st Virtual Realtime Globe.
-
-
-Besides your “GLOBAL CHALLENGE” project, Google GeoForGood, and many other big players are also working aware along this one huge global challenge reaching out, contributing in establishing and combine technologies..
-needs & potentials: #SURVIVAL_DYNAMICS #AUGMENTED_GATING
-I fully believe in it and I see with one short glimpse (-not daring to think too deep in its sidearms) about 100 great possibilities to derive on different layers and as a multitude of applications, abstractions and remixes of something very #open-ended, “volutionary” on this [1st Virtual Realtime Globe]++.
-
 I think we truly shall -with united forces - make this happen right now:
 1st Virtual Realtime Globe.
 
