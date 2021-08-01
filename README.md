@@ -112,7 +112,7 @@ setting up rihgt at the center of virtual coordinate system, mapping global,
 bringing together relevant climate earth condition focused data, combines it with its spatial, temporal and effective parameters and maps advanced insight Earth data: live, historic, future scenarios. renderable, immersive, true, deep. -
 onto a unique digital 3D earth representation.
 
-[1VRG] `s claim:
+"[1VRG]" `s claim:
 The big picture of planet Earth entity and its condition states - in realtime - interactive - immersive - real.
 
 
