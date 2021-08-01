@@ -41,6 +41,8 @@ We have to bring it all together to one BIG PICTURE
 
 ### How can technology help?
 
+Technology can help to bring it all together to one BIG augmented PICTURE.
+
 ####DATA
 - Combined data on that scope!
 - Analytics, derives, relations,
@@ -143,7 +145,7 @@ I think we truly shall -with united forces - make this happen right now:
 
 ## The architecture
 
-###CLAIM/NARRATION:
+### CLAIM/NARRATION:
 
 (1) "Let’s call it “1VRG”."-  with focus, function and abilities
 
@@ -152,12 +154,12 @@ Available Domains
 - http://intelligentenvironment.net - View on the full sys
 
 
-###Technology
-####BASIC:
-#####(1) "Let’s take the marble. virtual and 3D."
+### Technology
+#### BASIC:
+##### (1) "Let’s take the marble. virtual and 3D."
 Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
 
-#####(2) "Put those data layers on it"
+##### (2) "Put those data layers on it"
 - Get (basic) data - (from easy to complex and advanced)
 - prepare & enrich them - (from easy to complex and advanced)
   - geospatial component: declaration, namespaces
@@ -178,17 +180,17 @@ Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
 
 ####ADVANCED:
 
-#####(3) make it realtime,
-#####(4) intelligent (deeper data analytics, relations, calculations, insights) and
+##### (3) make it realtime,
+##### (4) intelligent (deeper data analytics, relations, calculations, insights) and
 
-#####(5) project, visualise, map - shocking insights and connections
-#####(6) augment, immerse (grant access to drive-throughs and critical points) experiential in XR
+##### (5) project, visualise, map - shocking insights and connections
+#####( 6) augment, immerse (grant access to drive-throughs and critical points) experiential in XR
 
-#####(7) make it interactive (gamification) - *hand in the game* - via global condition number : individual footprint number [calculations and feedback]: —> EQUILLIBRIUM <—
+##### (7) make it interactive (gamification) - *hand in the game* - via global condition number : individual footprint number [calculations and feedback]: —> EQUILLIBRIUM <—
 
-#####8) have a [1VRG] with all upcoming potential as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
+##### (8) have a [1VRG] with all upcoming potential as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
 
-#####9) find assets and exchange forms for “sustainable global”
+##### (9) find assets and exchange forms for “sustainable global”
 
 
 
