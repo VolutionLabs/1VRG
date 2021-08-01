@@ -11,9 +11,9 @@ a multitool for climate / earth science geospatial data and its potential for ex
   - [How can technology help?](#how-can-technology-help)
   - [The idea](#the-idea)
 
-- [Demo video](#demo-video)
-- [The architecture](#the-architecture)
 - [Long description](#long-description)
+- [The architecture](#the-architecture)
+- [Demo video](#demo-video)
 - [Project roadmap](#project-roadmap)
 - [Getting started](#getting-started)
 - [Live demo](#live-demo)
@@ -49,59 +49,6 @@ a multitool for climate / earth science geospatial data and its potential for ex
 ### STORY
 
 
-
-
-
-## Demo video
-
-## The architecture
-
-###CLAIM/NARRATION:
-
-(1) "Let’s call it “1VRG”."-  with focus, function and abilities
-
-Available Domains
-- http://changewatch.net - View changes over time
-- http://intelligentenvironment.net - View on the full sys
-
-
-###Technology
-####BASIC:
-#####(1) "Let’s take the marble. virtual and 3D."
-Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
-
-#####(2) "Put those data layers on it"
-- Get (basic) data - (from easy to complex and advanced)
-- prepare & enrich them - (from easy to complex and advanced)
-  - geospatial component: declaration, namespaces
-  - source metadata component: declaration, namespaces
-  - data parameter physical component
-  - normalisations
-  - mapping parameter
-  - dataframe combined (encapsulation and format)
-  - naming convention for automation
-  - merger
-
-  - read dataset
-  - create menu basing on naming convention (data sets)  --- FUNCT ERR
-  - selected parameter -> heights, colors, info   --- FUNCT ERR
-
----> NEEDS:
-
-
-####ADVANCED:
-
-#####(3) make it realtime,
-#####(4) intelligent (deeper data analytics, relations, calculations, insights) and
-
-#####(5) project, visualise, map - shocking insights and connections
-#####(6) augment, immerse (grant access to drive-throughs and critical points) experiential in XR
-
-#####(7) make it interactive (gamification) - *hand in the game* - via global condition number : individual footprint number [calculations and feedback]: —> EQUILLIBRIUM <—
-
-#####8) have a [1VRG] with all upcoming potential as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
-
-#####9) find assets and exchange forms for “sustainable global”
 
 
 
@@ -172,6 +119,58 @@ I think we truly shall -with united forces - make this happen right now:
 
 
 
+
+## The architecture
+
+###CLAIM/NARRATION:
+
+(1) "Let’s call it “1VRG”."-  with focus, function and abilities
+
+Available Domains
+- http://changewatch.net - View changes over time
+- http://intelligentenvironment.net - View on the full sys
+
+
+###Technology
+####BASIC:
+#####(1) "Let’s take the marble. virtual and 3D."
+Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
+
+#####(2) "Put those data layers on it"
+- Get (basic) data - (from easy to complex and advanced)
+- prepare & enrich them - (from easy to complex and advanced)
+  - geospatial component: declaration, namespaces
+  - source metadata component: declaration, namespaces
+  - data parameter physical component
+  - normalisations
+  - mapping parameter
+  - dataframe combined (encapsulation and format)
+  - naming convention for automation
+  - merger
+
+  - read dataset
+  - create menu basing on naming convention (data sets)  --- FUNCT ERR
+  - selected parameter -> heights, colors, info   --- FUNCT ERR
+
+---> NEEDS:
+
+
+####ADVANCED:
+
+#####(3) make it realtime,
+#####(4) intelligent (deeper data analytics, relations, calculations, insights) and
+
+#####(5) project, visualise, map - shocking insights and connections
+#####(6) augment, immerse (grant access to drive-throughs and critical points) experiential in XR
+
+#####(7) make it interactive (gamification) - *hand in the game* - via global condition number : individual footprint number [calculations and feedback]: —> EQUILLIBRIUM <—
+
+#####8) have a [1VRG] with all upcoming potential as the 1st Virtual Realtime Earth representation - the place to be, see and act - on a global scale - [connections, effects, feedbacks…]
+
+#####9) find assets and exchange forms for “sustainable global”
+
+
+
 ## Project roadmap
 
 ### TECHNOLOGICAL ADVANCES
@@ -218,6 +217,9 @@ It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run o
 
 #### with IBM & potential investor
 
+
+
+## Demo video
 
 
 ## Getting started
