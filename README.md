@@ -140,6 +140,8 @@ I think we truly shall -with united forces - make this happen right now:
 
 [More details for Tech Players available here](./docs/tech-player-info.md)
 
+![Vertical](./images/3arth.pdf)
+
 
 
 
