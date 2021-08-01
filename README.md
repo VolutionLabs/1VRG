@@ -69,7 +69,7 @@ Technology can help to bring it all together to one BIG augmented PICTURE.
 
 ### METHOD
 
-![Vertical](./images/3arth.pdf)
+![Vertical](./images/3arth.png)
 
 
 ### STORY
