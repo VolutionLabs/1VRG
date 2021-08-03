@@ -67,7 +67,7 @@ Technology can help to bring it all together to one BIG augmented PICTURE.
 
 ### VISION
 ![Vertical](./images/Camille-flammarion-himmelskunde-die-atmosphaere_1-1395x1129.jpg)
-
+*image_caption_Flammarion*
 
 
 ### METHOD
@@ -84,6 +84,7 @@ The idea is: an outermost technology setup and claim for next-augmented scape, d
 
 Its development is setup in different levels and application spectres.
 
+There are also other applications for specific layers and als a roadmap to be deepeer developed into XRanddeep information and direction
 
 
 
