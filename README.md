@@ -90,13 +90,19 @@ Its development is setup in some basic steps.
 The project idea developed in 2017, where one basic layer was created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER.
 Step 1  "Carbon Globe" is being realized for DBFZ.
 
-This basic tool consists of an (emission) data *GEOSPATIALIZER* python script, that merges emission data (from excel tables) with geospatial, parameter enriched data
+This basic tool consists of an (emission) data *GEOSPATIALIZER*
+[Geospatializer](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07/README.md)
+
+
+python script, that merges emission data (from excel tables) with geospatial, parameter enriched data
 
 from basic emission providers
 
 and lets the geospatial referenced dataset figure being - automatically integrated into the parameter taxonomy and being - mapped onto a virtual realtime globe
 with the  framework cesium.js
 and with a basic python script to do the essential data inscriving work.
+
+[See v.1.0](./v.1.0/)
 
 
 #### STEP 2: v.1.1 Globe for "GLOBAL CHALLENGE" with IBM and more ..  [reflect what is possible]
@@ -232,6 +238,10 @@ Virtual Globe (WebGL webVR, XR frameworks and effective namespaces)
 
 
 ## Project roadmap
+
+
+A document or image that shows how mature your solution is today and how you would like to improve it in the future. This can include information on the business model, future funding needs, and a sustainability plan.
+
 
 ### TECHNOLOGICAL ADVANCES
 #### Basic technology
