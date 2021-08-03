@@ -82,26 +82,35 @@ Technology can help to bring it all together to one BIG augmented PICTURE.
 The idea is: an outermost technology setup and claim for next-augmented scape, digital/virtual space:
 1st Virtual Realtime Globe, that contains many layers.
 
-Its development is setup in some basic steps.
+Its development is setup in different levels and application spectres.
 
 
 
-#### STEP 1: v.1.0 Carbon Globe [proof of concept]
-The project idea developed in 2017, where one basic layer was created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER.
-Step 1  "Carbon Globe" is being realized for DBFZ.
 
-This basic tool consists of an (emission) data 
-[*GEOSPATIALIZER*](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07) with the following
-[functions and settings](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07/README.md)
+#### STEP 1: v.1.0 Carbon Globe [proof of concept] - "The Grandmother of Geospatial Webmapping"
+
+The project idea was developed in 2017.
+
+This basic tool consists of some basic process steps, that shall be refined over time.
+
+Step 1  "Carbon Globe" was composed as one basic first layer, created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER. The installation will be finished in late 2021.
+
+containing a
+- [*GEOSPATIALIZER*](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07)
+python script, that does the basic data inscriving work
+and merges emission data (from excel tables) with geospatial, parameter enriched data
+for (table-based) (emission) data
 
 
-python script, that merges emission data (from excel tables) with geospatial, parameter enriched data
+from the following emission data providers:
+-
+-
+-
 
-from basic emission providers
+- [*WEBMAPPER*](./v.1.0/JAVASCRIPT-cesium-WebGL_Renderer/co2visu-master_v21-07/co2globe)
 
 and lets the geospatial referenced dataset figure being - automatically integrated into the parameter taxonomy and being - mapped onto a virtual realtime globe
 with the  framework cesium.js
-and with a basic python script to do the essential data inscriving work.
 
 [See v.1.0](./v.1.0/)
 
@@ -265,8 +274,11 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 ##### v.1.0 Dynamic Realtime Data Implementation - Towards Complete DATA SETS (geospatial + /scopes(combined climate / earth science / glocal datasets))
 
 ##### v.2.0
+DynamicRealtimeData
+
 
 ##### v.3.0 - XR Potential
+DynamicRealtimeData
 
 
 
@@ -278,8 +290,9 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 The project currently does the following things.
 
-- Feature 1
-- Feature 2
+- Automatically combines .csv/excel data with metadata according to defined configurations, and embeds the data with geospatial data component
+- implements topology for further automated processing
+- exports data as .topojson Files
 - Feature 3
 
 It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
