@@ -28,7 +28,7 @@ Repository for 1st Virtual Realtime Globe
 
 ## Short description
 
-1VRG is the digital and virtual representation of planet earth in digital / virtual space - the virtual globe in realtime,with its all its streams and parameteres, brought together on the body of a round shape (that is capable of showing  the interdependencies.)
+1VRG is the digital and virtual representation of planet earth in digital / virtual space - the virtual globe in realtime, with its all its streams and parameters, brought together on the body of a round shape (that is capable of showing  the interdependencies and further capacities.
 
 ### What's the problem?
 
