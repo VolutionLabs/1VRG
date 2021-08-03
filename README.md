@@ -90,8 +90,9 @@ Its development is setup in some basic steps.
 The project idea developed in 2017, where one basic layer was created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER.
 Step 1  "Carbon Globe" is being realized for DBFZ.
 
-This basic tool consists of an (emission) data *GEOSPATIALIZER*
-[Geospatializer](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07/README.md)
+This basic tool consists of an (emission) data 
+[*GEOSPATIALIZER*](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07) with the following
+[functions and settings](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07/README.md)
 
 
 python script, that merges emission data (from excel tables) with geospatial, parameter enriched data
