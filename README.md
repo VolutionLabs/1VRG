@@ -75,7 +75,7 @@ Technology can help to bring it all together to one BIG augmented PICTURE.
 
 | ![space-1.jpg](./images/3arth.png) |
 |:--:|
-| *Space* |
+| *Scape* |
 
 
 ### STORY
