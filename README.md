@@ -95,17 +95,15 @@ This basic tool consists of some basic process steps, that shall be refined over
 
 Step 1  "Carbon Globe" was composed as one basic first layer, created to be implemented as a Kunst-am-Bau work at DBFZ, Leipzig | GER. The installation will be finished in late 2021.
 
+from the following emission data providers:
+-
+-
+
 containing a
  [*GEOSPATIALIZER*](./v.1.0/PYTHON-Geospatilizer/emissions-topojson-master_v21-07)
 python script, that does the basic data inscriving work
 and merges emission data (from excel tables) with geospatial, parameter enriched data
 for (table-based) (emission) data
-
-
-from the following emission data providers:
--
--
--
 
  [*WEBMAPPER*](./v.1.0/JAVASCRIPT-cesium-WebGL_Renderer/co2visu-master_v21-07/co2globe)
 
