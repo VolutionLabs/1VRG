@@ -109,12 +109,6 @@ with the  framework cesium.js
 [See v.1.0](./v.1.0/)
 
 
-#### STEP 2: v.1.1 Globe for "GLOBAL CHALLENGE" with IBM and more ..  [reflect what is possible]
-
-#### STEP 3: v.1.1 Carbon Globe [optimized]
-- clean
-- clean
-- ..
 
 
 
@@ -256,7 +250,14 @@ A document or image that shows how mature your solution is today and how you wou
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
+#### STEP 1: v.1.0 Carbon Globe [proof of concept] - "The Grandmother of Geospatial Webmapping"
 
+#### STEP 2: v.1.1 Globe for "GLOBAL CHALLENGE" with IBM and more ..  [reflect what is possible]
+
+#### STEP 3: v.1.1 Carbon Globe [optimized]
+- clean
+- clean
+- ..
 
 
 ![Roadmap](./images/roadmap.jpg)
