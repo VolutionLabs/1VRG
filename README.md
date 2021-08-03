@@ -69,6 +69,10 @@ Technology can help to bring it all together to one BIG augmented PICTURE.
 ![Vertical](./images/Camille-flammarion-himmelskunde-die-atmosphaere_1-1395x1129.jpg)
 *image_caption_Flammarion*
 
+| ![space-1.jpg](./images/3arth.png) | 
+|:--:|
+| *Space* |
+
 
 ### METHOD
 
